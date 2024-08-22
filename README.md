@@ -1,6 +1,5 @@
 #                                                                        BIGID PROJECT                                                    #
-
- ![image](https://github.com/user-attachments/assets/649bd622-f228-4108-96ac-25b51402220c)
+![image](https://github.com/user-attachments/assets/2d7f3e08-b82f-4890-b3fe-09e6ba72a1b2)
 
 ![image](https://github.com/user-attachments/assets/0dba2164-c4f9-4766-bc9b-354874a1fa17)
 
