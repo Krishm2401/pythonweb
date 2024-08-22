@@ -1,8 +1,7 @@
 #                                                                        BIGID PROJECT                                                    #
 ![image](https://github.com/user-attachments/assets/2d7f3e08-b82f-4890-b3fe-09e6ba72a1b2)
 
-![image](https://github.com/user-attachments/assets/0dba2164-c4f9-4766-bc9b-354874a1fa17)
-
+![1](https://github.com/user-attachments/assets/42b0815a-97d6-43dc-bd28-45e2504f0882)
 			
 
 ## SCRIPTS USING:
@@ -454,12 +453,11 @@ git push -u krish main
 # 12.Create pipeline
 Select pipeline project
 Configure -> script pipeline
- ![image](https://github.com/user-attachments/assets/8b2e57c4-a92a-4870-be64-4aee2d72596d)
-
+![image](https://github.com/user-attachments/assets/17dc5da9-fa20-43a3-849f-4c8572e39402)
 
 
 ```bash git branch: 'main', credentialsId: 'git-cred', url: 'https://github.com/Krishm2401/pythonweb.git' ```
-![image](https://github.com/user-attachments/assets/9dd8fc30-608b-440a-b919-19a0bfa5852a)
+![image](https://github.com/user-attachments/assets/90872f48-85d9-4832-8417-674f59fcde1d)
 
 
  
@@ -497,12 +495,11 @@ Dokcer->Kind: secret text
 Kubernetes ->kind—secret file.
 
 Id:Soner-token 
- ![image](https://github.com/user-attachments/assets/06cc44bd-f731-4b95-8be7-472966423388)
+![image](https://github.com/user-attachments/assets/ff16efc5-34fb-481e-bf7e-6d83be50628c)
 
 # SONAR SETUP IN JENKINS
- ![image](https://github.com/user-attachments/assets/f9421b07-6eed-4991-af8f-e7c6862109cd)
- ![image](https://github.com/user-attachments/assets/af8e4066-c4dc-4bc2-84cb-85f82c61730a)
-
+![image](https://github.com/user-attachments/assets/86c18ab7-62d9-419b-a614-3523d385707e)
+![image](https://github.com/user-attachments/assets/64f44b55-cfba-4b8a-8169-6314e148a442)
 
  
 python – nodejs –sonar-scanner
@@ -520,9 +517,8 @@ python – nodejs –sonar-scanner
             }
         }
 ```
-![image](https://github.com/user-attachments/assets/ba069fd9-01c5-4c33-b009-f0505cb1f691)
-![image](https://github.com/user-attachments/assets/9b9b1e03-89f5-4dcd-95e8-4191281ab45d)
-
+![image](https://github.com/user-attachments/assets/70e31c88-964b-44f2-9d38-c8bd2d21fe18)
+![image](https://github.com/user-attachments/assets/04dc6d7c-6eb1-4312-a2d7-d53b6a8945e6)
 
 Sonerqube is quality gate is passed
 Sonerqube will do code quality test which means will check code level issue, code level vulnerability, code duplicates.
@@ -553,8 +549,7 @@ Sonerqube will do code quality test which means will check code level issue, cod
        }
 ```
 By using python3 build process has been completed in jenkins pipeline.
-![image](https://github.com/user-attachments/assets/64cdcd76-801f-4f85-b2d3-7cd85297952b)
-
+![image](https://github.com/user-attachments/assets/c795056e-3f92-4d73-b115-594cb62d2477)
  
 18.Stage4:
 ```bash
@@ -589,8 +584,7 @@ docker push krishm2401/bigidhub2:v1
 Install in docker in jenkins M/C
 And also change permission chmod 700 /var/run/docker.sock
 # Stage5: By using cache sonerqube code quality test doing python and requirement.txt is running docker image is built 
- ![image](https://github.com/user-attachments/assets/41198b75-8abb-422e-be62-e86b796bbcf3)
-
+![image](https://github.com/user-attachments/assets/2098d85b-1798-4bb2-9280-bd85489b55ac)
 20.Docker login succeed.
 
 By using Helm chart going to do deployment 
@@ -657,7 +651,7 @@ cd .docker/
 config.json
 
 Has to cp config.json to /opt/docker path.
-![image](https://github.com/user-attachments/assets/6dc464da-3e47-4135-8967-8177f5b52b8f)
+![image](https://github.com/user-attachments/assets/26d9ea73-2b7f-4878-be02-85d65c873078)
 
 chmod 700 /opt/docker/config.json
 kubectl get pods
@@ -666,27 +660,24 @@ helm ls
 ```bash kubectl get pods –o wide -n webapps ```
 #             OUTPUT 
 
-![image](https://github.com/user-attachments/assets/9686517c-b871-4f3a-94f4-daa188f288c4)
+![image](https://github.com/user-attachments/assets/5d5b9288-9c99-4d92-9fa2-d9289b0d2ce7)
 
 # WEBHOOK TRIGER:
 # CREATE WEBHOOK FOR AUTO BUILD:
 Give the Jenkins url http://43.205.114.131:8080/github-webhook/
 Enable pol scm on Jenkins
-![image](https://github.com/user-attachments/assets/681b1132-5bb6-4ce0-bc3d-0e22b23755fd)
-
+![image](https://github.com/user-attachments/assets/3451a270-6bd2-4bbc-846f-fff443bc9f3a)
 #  ATTACH EMAIL NOTIFICATION:
   ENABLE EMAIL NOTIFICATION
 •  Dashboard
 •   Manage Jenkins
 •  SystemExtended E-mail Notification
 And enable security group inbond smtps 465
-![image](https://github.com/user-attachments/assets/8222ea31-2ec5-4db7-9e26-61141f6bf138)
-
-![image](https://github.com/user-attachments/assets/afdf9bc0-e205-47f2-b228-9290303daf20)
+![image](https://github.com/user-attachments/assets/84f1129a-cf7b-4af5-ab19-a2179e87ad62)
+![image](https://github.com/user-attachments/assets/4242ce70-6c0e-4f52-b98d-28d540b46c62)
 
 # Generate app passward on google account manager for mail credential
-![image](https://github.com/user-attachments/assets/1e1b3303-0711-4f23-af8d-ddaf71ddecb8)
-
+![image](https://github.com/user-attachments/assets/692c7cc3-1d15-44c5-ab67-bc8aaf53a984)
 # Write pipeline code form mail alert
 ```bash
 post { 
@@ -721,32 +712,28 @@ post {
     }
 ```
 # If the pipeline get failed Jenkins send a mail to our email:
-![image](https://github.com/user-attachments/assets/334298d0-9fe9-406c-b982-0fd6eed92420)
-![image](https://github.com/user-attachments/assets/c886c3b1-0009-4e09-b4e5-68ee45bab87f)
- 
-# If the pipeline run successfully it will also send a mail with trivy image scanning report:
-![image](https://github.com/user-attachments/assets/f840bfcf-e153-40c6-8719-5a7d035f686d)
+![image](https://github.com/user-attachments/assets/2745acc3-018d-43a9-b6df-a8802ff71cc2)
+![image](https://github.com/user-attachments/assets/bcab2b86-0f9a-42e5-adf9-3a7844a46c8c)
 
+# If the pipeline run successfully it will also send a mail with trivy image scanning report:
+![image](https://github.com/user-attachments/assets/0f6182d5-66b8-4f35-956d-885b55bd369a)
  
 # Monitoring :
 I have used aws cloudwatch for monitor cpu ,metrics logs for my cluster.
 Install cloudwatch agent in my main ec2 and configured it 
- ![image](https://github.com/user-attachments/assets/f73d101b-e264-4f1e-afb8-d97aac55631d)
- ![image](https://github.com/user-attachments/assets/92e06013-24eb-4b4a-b611-3b2ff2abe619)
- ![image](https://github.com/user-attachments/assets/89f84f2f-9f60-4ec6-aa64-aa9bd085d611)
+![image](https://github.com/user-attachments/assets/1e625526-b20b-40dd-b44d-8c993b3c0807)
+![image](https://github.com/user-attachments/assets/c3923c21-2197-46ad-b860-42b70fe332ec)
 
  
 Cloud watch alarm:
- 
+![image](https://github.com/user-attachments/assets/ff2c7174-9134-4686-9988-22da3f5e0cd2) 
 
 # ISSUES I FACED IN THIS PROJECT:
 1:Sonar qube failed:
-![image](https://github.com/user-attachments/assets/4cdeec48-a4c5-4ace-892d-7a7c3c93f2b1)
-             
+![image](https://github.com/user-attachments/assets/8053c870-a5ac-45fc-b19c-5af61db3f095)             
 2.IMAGE PULL BACK ERROR AND ERRIMAGEPULL
-![image](https://github.com/user-attachments/assets/b270c2c6-3f09-4fe7-8619-c1e67f7ab5ec)
-![image](https://github.com/user-attachments/assets/b017065c-25df-4e26-9fa3-51f2401123f9)
-
+![image](https://github.com/user-attachments/assets/f6c087c7-2500-446b-878e-ab4dcc73dd99)
+![image](https://github.com/user-attachments/assets/0773c66c-8c7a-4a94-a52f-0adf6689395a)
 3.DEPLOYMENT ERROR ON YAML FILES
 
 4.KEYPAIR ISSUES 
